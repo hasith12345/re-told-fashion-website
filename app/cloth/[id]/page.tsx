@@ -176,7 +176,7 @@ export default async function ClothDetailPage({ params }: ClothDetailPageProps) 
         <footer className="bg-black text-gray-400 py-8 px-4 sm:px-6 lg:px-8">
           <div className="max-w-7xl mx-auto">
             <p className="text-sm text-center">
-              © 2024 reTold. All stories preserved.
+              © 2026 reTold. Amadi Dewmini. All rights reserved.
             </p>
           </div>
         </footer>
