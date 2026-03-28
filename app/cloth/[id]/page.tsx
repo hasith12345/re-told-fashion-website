@@ -173,62 +173,11 @@ export default async function ClothDetailPage({ params }: ClothDetailPageProps) 
         </section>
 
         {/* Footer */}
-        <footer className="bg-foreground text-primary py-12 px-4 sm:px-6 lg:px-8 mt-12">
+        <footer className="bg-black text-gray-400 py-8 px-4 sm:px-6 lg:px-8">
           <div className="max-w-7xl mx-auto">
-            <div className="grid grid-cols-2 md:grid-cols-4 gap-8 mb-12">
-              <div>
-                <h5 className="font-serif font-semibold mb-4">reTold</h5>
-                <p className="text-sm text-primary/70">Stories stitched into form.</p>
-              </div>
-              <div>
-                <h5 className="font-serif font-semibold mb-4">Collections</h5>
-                <ul className="text-sm text-primary/70 space-y-2">
-                  <li>
-                    <a href="#" className="hover:text-primary transition-colors">
-                      New Arrivals
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#" className="hover:text-primary transition-colors">
-                      All Items
-                    </a>
-                  </li>
-                </ul>
-              </div>
-              <div>
-                <h5 className="font-serif font-semibold mb-4">Company</h5>
-                <ul className="text-sm text-primary/70 space-y-2">
-                  <li>
-                    <a href="#" className="hover:text-primary transition-colors">
-                      About
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#" className="hover:text-primary transition-colors">
-                      Contact
-                    </a>
-                  </li>
-                </ul>
-              </div>
-              <div>
-                <h5 className="font-serif font-semibold mb-4">Follow</h5>
-                <ul className="text-sm text-primary/70 space-y-2">
-                  <li>
-                    <a href="#" className="hover:text-primary transition-colors">
-                      Instagram
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#" className="hover:text-primary transition-colors">
-                      Twitter
-                    </a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-            <div className="border-t border-primary/20 pt-8">
-              <p className="text-sm text-primary/70 text-center">© 2024 reTold. All stories preserved.</p>
-            </div>
+            <p className="text-sm text-center">
+              © 2024 reTold. All stories preserved.
+            </p>
           </div>
         </footer>
       </main>
