@@ -1,6 +1,7 @@
 'use client'
 
 import Link from 'next/link'
+import Image from 'next/image'
 import { useState } from 'react'
 
 export function Navbar() {
@@ -12,9 +13,13 @@ export function Navbar() {
         <div className="flex items-center justify-between h-20">
           {/* Logo */}
           <Link href="/" className="flex-shrink-0">
-            <h1 className="text-2xl font-serif font-bold tracking-tight text-foreground">
-              reTold
-            </h1>
+            <Image
+              src="/WhatsApp Image 2026-03-28 at 00.00.27.jpeg"
+              alt="reTold"
+              width={80}
+              height={40}
+              className="object-contain"
+            />
           </Link>
 
           {/* Desktop Navigation */}

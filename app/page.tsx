@@ -1,3 +1,4 @@
+import Image from 'next/image'
 import { Navbar } from '@/components/navbar'
 import { ClothCard } from '@/components/cloth-card'
 import { cloths } from '@/lib/cloth-data'
@@ -9,19 +10,27 @@ export default function Home() {
       <Navbar />
       <main>
         {/* Hero Section */}
-        <section className="min-h-screen flex items-center justify-center bg-background px-4 sm:px-6 lg:px-8">
-          <div className="text-center max-w-3xl mx-auto">
-            <h2 className="text-5xl sm:text-6xl lg:text-7xl font-serif font-bold tracking-tight text-foreground mb-6">
-              Stories Stitched into Form
+        <section className="relative min-h-screen flex items-center justify-center px-4 sm:px-6 lg:px-8">
+          <Image
+            src="/1000324612.jpg"
+            alt="reTold hero"
+            fill
+            className="object-cover"
+            priority
+          />
+          <div className="absolute inset-0 bg-black/50" />
+          <div className="relative text-center max-w-3xl mx-auto">
+            <h2 className="text-4xl sm:text-5xl lg:text-6xl font-serif font-bold tracking-tight text-white mb-6">
+              Stories Once Known Now reTold Through Fashion
             </h2>
-            <p className="text-lg sm:text-xl text-muted-foreground leading-relaxed max-w-2xl mx-auto">
-              reTold is a modern fashion brand for creative professionals, lecturers, and fashion enthusiasts who believe that what we wear tells our story.
+            <p className="text-lg sm:text-xl text-white/80 leading-relaxed max-w-2xl mx-auto">
+              reTold is a contemporary Sri Lankan streetwear brand rooted in storytelling, Sinhala mythology, and cultural nostalgia where each garment becomes a bold, poetic retelling of identity.
             </p>
             <div className="mt-12 flex gap-4 justify-center">
-              <button className="px-8 py-3 bg-foreground text-primary hover:bg-muted transition-colors text-sm tracking-wide font-medium">
+              <button className="px-8 py-3 bg-white text-black hover:bg-white/80 transition-colors text-sm tracking-wide font-medium">
                 Explore Collection
               </button>
-              <button className="px-8 py-3 border border-foreground text-foreground hover:bg-foreground hover:text-primary transition-all text-sm tracking-wide font-medium">
+              <button className="px-8 py-3 border border-white text-white hover:bg-white hover:text-black transition-all text-sm tracking-wide font-medium">
                 Our Story
               </button>
             </div>
@@ -33,10 +42,10 @@ export default function Home() {
           <div className="max-w-7xl mx-auto">
             <div className="mb-16">
               <h3 className="text-3xl sm:text-4xl font-serif font-bold text-foreground mb-4">
-                Our Collection
+                Chapter 1: ගූඪ
               </h3>
               <p className="text-muted-foreground max-w-2xl">
-                Each piece in our collection represents a dialogue between form and function, between inspiration and craft. Explore the stories behind our creations.
+                Each piece translates hidden narratives into bold, surreal streetwear-where garments become stories in motion.
               </p>
             </div>
 
@@ -64,26 +73,26 @@ export default function Home() {
             <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
               <div>
                 <h4 className="text-xl font-serif font-semibold text-foreground mb-4">
-                  Intentional Design
+                  Intentional Storytelling
                 </h4>
                 <p className="text-muted-foreground leading-relaxed">
-                  Every piece is designed with purpose. We believe in thoughtful creation where form, function, and story intertwine.
+                  Every piece begins with a story—where design, meaning, and emotion are inseparable.
                 </p>
               </div>
               <div>
                 <h4 className="text-xl font-serif font-semibold text-foreground mb-4">
-                  Quality Craft
+                  Cultural Craft
                 </h4>
                 <p className="text-muted-foreground leading-relaxed">
-                  We prioritize premium materials and expert craftsmanship. Our garments are built to endure and evolve with you.
+                  Rooted in Sri Lankan heritage, shaped through ethical and local craftsmanship.
                 </p>
               </div>
               <div>
                 <h4 className="text-xl font-serif font-semibold text-foreground mb-4">
-                  Creative Community
+                  Modern Myth
                 </h4>
                 <p className="text-muted-foreground leading-relaxed">
-                  Designed for those who think deeply about the world they create. Fashion as a form of self-expression and storytelling.
+                  We don't recreate the past—we reimagine it, transforming mythology into a new language for the streets.
                 </p>
               </div>
             </div>
