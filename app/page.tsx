@@ -1,6 +1,7 @@
 import { Navbar } from '@/components/navbar'
 import { ClothCard } from '@/components/cloth-card'
 import { cloths } from '@/lib/cloth-data'
+import Footer from '@/components/Footer'
 
 export default function Home() {
   return (
@@ -89,10 +90,7 @@ export default function Home() {
           </div>
         </section>
 
-        {/* Footer */}
-        <footer className="bg-black text-white py-6 px-4">
-          <p className="text-sm text-white/70 text-center">© 2024 reTold. All stories preserved.</p>
-        </footer>
+        <Footer />
       </main>
     </>
   )
