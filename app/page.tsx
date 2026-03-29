@@ -41,12 +41,26 @@ export default function Home() {
         <section className="py-20 bg-background px-4 sm:px-6 lg:px-8">
           <div className="max-w-7xl mx-auto">
             <div className="mb-16">
-              <h3 className="text-3xl sm:text-4xl font-serif font-bold text-foreground mb-4">
-                Chapter 1: ගූඪ
+              <h3 className="text-3xl sm:text-4xl font-serif font-bold text-foreground mb-2">
+                Chapter 1 — ගූඪ
               </h3>
-              <p className="text-muted-foreground max-w-2xl">
-                Each piece translates hidden narratives into bold, surreal streetwear-where garments become stories in motion.
+              <p className="text-sm text-muted-foreground/70 italic mb-6">
+                A hidden story reTold in form.
               </p>
+              <div className="max-w-2xl space-y-4 text-muted-foreground">
+                <div>
+                  <h4 className="text-sm font-semibold text-foreground uppercase tracking-wide mb-1">The Story</h4>
+                  <p>Chapter 1 — ගූඪ explores the unseen, the mysterious, and the untold layers of Sri Lankan mythology. Each piece translates hidden narratives into bold, surreal streetwear—where garments become stories in motion.</p>
+                </div>
+                <div>
+                  <h4 className="text-sm font-semibold text-foreground uppercase tracking-wide mb-1">Inspiration</h4>
+                  <p>Drawn from Sinhala myths, ancient symbols, and cultural memory, reimagined through a dark, poetic, and contemporary lens.</p>
+                </div>
+                <div>
+                  <h4 className="text-sm font-semibold text-foreground uppercase tracking-wide mb-1">Design Language</h4>
+                  <p>Layering, textures, and symbolic details act as storytelling elements—turning each outfit into a visual narrative.</p>
+                </div>
+              </div>
             </div>
 
             {/* Product Grid */}

@@ -14,7 +14,7 @@ export function Navbar() {
           {/* Logo */}
           <Link href="/" className="flex-shrink-0">
             <Image
-              src="/WhatsApp Image 2026-03-28 at 00.00.27.jpeg"
+              src="/logo.png"
               alt="reTold"
               width={80}
               height={40}
