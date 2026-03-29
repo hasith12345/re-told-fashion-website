@@ -15,7 +15,14 @@ export default function Home() {
             src="/1000324612.jpg"
             alt="reTold hero"
             fill
-            className="object-cover"
+            className="object-cover hidden md:block"
+            priority
+          />
+          <Image
+            src="/1000324605.jpg"
+            alt="reTold hero mobile"
+            fill
+            className="object-cover md:hidden"
             priority
           />
           <div className="absolute inset-0 bg-black/50" />
@@ -27,22 +34,22 @@ export default function Home() {
               reTold is a contemporary Sri Lankan streetwear brand rooted in storytelling, Sinhala mythology, and cultural nostalgia where each garment becomes a bold, poetic retelling of identity.
             </p>
             <div className="mt-12 flex gap-4 justify-center">
-              <button className="px-8 py-3 bg-white text-black hover:bg-white/80 transition-colors text-sm tracking-wide font-medium">
+              <a href="#collection" className="px-8 py-3 bg-white text-black hover:bg-white/80 hover:scale-105 active:scale-95 transition-all duration-300 text-sm tracking-wide font-medium">
                 Explore Collection
-              </button>
-              <button className="px-8 py-3 border border-white text-white hover:bg-white hover:text-black transition-all text-sm tracking-wide font-medium">
+              </a>
+              <a href="/about" className="px-8 py-3 border border-white text-white hover:bg-white hover:text-black hover:scale-105 active:scale-95 transition-all duration-300 text-sm tracking-wide font-medium">
                 Our Story
-              </button>
+              </a>
             </div>
           </div>
         </section>
 
         {/* Collection Section */}
-        <section className="py-20 bg-background px-4 sm:px-6 lg:px-8">
+        <section id="collection" className="py-20 bg-background px-4 sm:px-6 lg:px-8">
           <div className="max-w-7xl mx-auto">
             <div className="mb-16">
               <h3 className="text-3xl sm:text-4xl font-serif font-bold text-foreground mb-2">
-                Chapter 1 — ගූඪ
+                Chapter 1 - ගූඪ
               </h3>
               <p className="text-sm text-muted-foreground/70 italic mb-6">
                 A hidden story reTold in form.
@@ -50,7 +57,7 @@ export default function Home() {
               <div className="max-w-2xl space-y-4 text-muted-foreground">
                 <div>
                   <h4 className="text-sm font-semibold text-foreground uppercase tracking-wide mb-1">The Story</h4>
-                  <p>Chapter 1 — ගූඪ explores the unseen, the mysterious, and the untold layers of Sri Lankan mythology. Each piece translates hidden narratives into bold, surreal streetwear—where garments become stories in motion.</p>
+                  <p>Chapter 1 - ගූඪ explores the unseen, the mysterious, and the untold layers of Sri Lankan mythology. Each piece translates hidden narratives into bold, surreal streetwear-where garments become stories in motion.</p>
                 </div>
                 <div>
                   <h4 className="text-sm font-semibold text-foreground uppercase tracking-wide mb-1">Inspiration</h4>
@@ -58,7 +65,7 @@ export default function Home() {
                 </div>
                 <div>
                   <h4 className="text-sm font-semibold text-foreground uppercase tracking-wide mb-1">Design Language</h4>
-                  <p>Layering, textures, and symbolic details act as storytelling elements—turning each outfit into a visual narrative.</p>
+                  <p>Layering, textures, and symbolic details act as storytelling elements-turning each outfit into a visual narrative.</p>
                 </div>
               </div>
             </div>

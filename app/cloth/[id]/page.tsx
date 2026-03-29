@@ -140,16 +140,6 @@ export default async function ClothDetailPage({ params }: ClothDetailPageProps) 
                     </p>
                   </div>
                 </div>
-
-                {/* CTA */}
-                <div className="mt-12 flex gap-4">
-                  <button className="flex-1 px-8 py-3 bg-foreground text-primary hover:bg-muted transition-colors text-sm tracking-wide font-medium">
-                    Add to Collection
-                  </button>
-                  <button className="flex-1 px-8 py-3 border border-foreground text-foreground hover:bg-foreground hover:text-primary transition-all text-sm tracking-wide font-medium">
-                    Learn More
-                  </button>
-                </div>
               </div>
             </div>
 

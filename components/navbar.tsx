@@ -26,19 +26,19 @@ export function Navbar() {
           <div className="hidden md:flex items-center gap-12">
             <Link
               href="/"
-              className="text-sm tracking-wide text-foreground hover:text-muted-foreground transition-colors"
+              className="text-sm tracking-wide text-foreground hover:text-muted-foreground transition-all duration-300 hover:tracking-wider"
             >
               Collections
             </Link>
             <Link
-              href="/"
-              className="text-sm tracking-wide text-foreground hover:text-muted-foreground transition-colors"
+              href="/about"
+              className="text-sm tracking-wide text-foreground hover:text-muted-foreground transition-all duration-300 hover:tracking-wider"
             >
               About
             </Link>
             <Link
-              href="/"
-              className="text-sm tracking-wide text-foreground hover:text-muted-foreground transition-colors"
+              href="/contact"
+              className="text-sm tracking-wide text-foreground hover:text-muted-foreground transition-all duration-300 hover:tracking-wider"
             >
               Contact
             </Link>
@@ -76,13 +76,13 @@ export function Navbar() {
               Collections
             </Link>
             <Link
-              href="/"
+              href="/about"
               className="block text-sm tracking-wide text-foreground hover:text-muted-foreground transition-colors"
             >
               About
             </Link>
             <Link
-              href="/"
+              href="/contact"
               className="block text-sm tracking-wide text-foreground hover:text-muted-foreground transition-colors"
             >
               Contact
