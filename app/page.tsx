@@ -19,7 +19,7 @@ export default function Home() {
             priority
           />
           <Image
-            src="/1000324605.jpg"
+            src="/WhatsApp Image 2026-04-01 at 16.43.28.jpeg"
             alt="reTold hero mobile"
             fill
             className="object-cover md:hidden"
