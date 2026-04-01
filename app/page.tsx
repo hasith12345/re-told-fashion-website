@@ -97,7 +97,7 @@ export default function Home() {
                   Intentional Storytelling
                 </h4>
                 <p className="text-muted-foreground leading-relaxed">
-                  Every piece begins with a story—where design, meaning, and emotion are inseparable.
+                  Every piece begins with a story-where design, meaning, and emotion are inseparable.
                 </p>
               </div>
               <div>
@@ -113,7 +113,7 @@ export default function Home() {
                   Modern Myth
                 </h4>
                 <p className="text-muted-foreground leading-relaxed">
-                  We don't recreate the past—we reimagine it, transforming mythology into a new language for the streets.
+                  We don't recreate the past-we reimagine it, transforming mythology into a new language for the streets.
                 </p>
               </div>
             </div>
